@@ -9,7 +9,7 @@ const Faq = () => {
     setActive(active === i ? null : i)
   }
   return (
-    <div className='bg-navy-blue py-[210px] max-lg:py-[60px]'>
+    <div className='bg-navy-blue py-[210px] max-lg:pb-[60px] max-lg:pt-[100px]'>
       <div className='max-w-[1174px] mx-auto px-4'>
         <SubHeading text={'FAQs'} myClass={'pb-[60px] max-lg:pb-10'} />
         <div className='max-w-[1022px] mx-auto flex flex-col gap-6 max-sm:gap-4'>

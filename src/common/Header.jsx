@@ -24,18 +24,21 @@ const Header = () => {
 
   return (
     <>
-      <div className='flex items-center w-full justify-between pt-[14px] '>
+      <div className='flex items-center justify-between w-full pt-[14px] '>
         <a href='#logo'>
           <img
             src={logo}
-            alt='logo'
+            alt='page-logo'
             className='h-[72px] pointer-events-none max-lg:h-10'
           />
         </a>
-        <ul className='flex items-center gap-8 max-lg:hidden max-lg:gap-6'>
+        <ul className='flex items-center justify-between gap-8 max-lg:hidden'>
           {HEADER_LIST.map((obj, i) => (
             <li key={i}>
-              <a href={obj.link} className='leading-5 text-white'>
+              <a
+                href={obj.link}
+                className='leading-5 text-white hover:text-dark-blue transition-all duration-300'
+              >
                 {obj.title}
               </a>
             </li>
@@ -43,25 +46,18 @@ const Header = () => {
         </ul>
         <CustomButton
           buttonText={'Get Started'}
-          myClass={'max-lg:hidden py-[13.5px] px-[32.48px] '}
+          myClass={'max-lg:hidden py-[13.5px] px-[32.48px] button-bg hover:bg-white'}
         />
         <div
-          className={`flex flex-col items-center gap-3 ${
-            open
-              ? '!gap-0 transition-all duration-300'
-              : 'transition-all duration-300'
-          }`}
+          className='lg:hidden z-30 cursor-pointer'
+          onClick={() => setOpen(!open)}
         >
-          <div
-            className='lg:hidden z-30 cursor-pointer'
-            onClick={() => setOpen(!open)}
-          >
-            {open ? <CloseIcon /> : <MenuIcon />}
-          </div>
+          {open ? <CloseIcon /> : <MenuIcon />}
         </div>
       </div>
+
       <div
-        className={`w-full h-full transition-all duration-500 left-0 lg:-top-full z-20 fixed flex flex-col justify-center items-center bg-black ${
+        className={`fixed flex flex-col justify-center items-center transition-all duration-500 w-full h-full left-0 lg:-top-full z-20 bg-black ${
           open ? 'top-0 left-0' : '-top-full'
         }`}
       >

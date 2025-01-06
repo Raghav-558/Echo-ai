@@ -10,3 +10,24 @@
 .button-bg {
   background: linear-gradient(103.52deg, #3a3ef5 18.99%, #32c8f1 82.34%);
 }
+
+.slider-bg {
+  background: linear-gradient(
+    180deg,
+    rgba(59, 40, 246, 0.22) 0%,
+    rgba(59, 40, 246, 0) 100%
+  );
+}
+
+.slick-dots {
+  bottom: -40px !important;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+}
+
+.bottom-line {
+  background-image: linear-gradient(90deg, transparent, #fff, transparent);
+  opacity: 80%;
+}
