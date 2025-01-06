@@ -2,7 +2,11 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-    <div>Testimonials</div>
+      <div className='bg-navy-blue'>
+          <div className=''>
+              
+          </div>
+    </div>
   )
 }
 

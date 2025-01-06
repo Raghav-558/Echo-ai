@@ -21,3 +21,16 @@ export const FacebookIcon = () => (
         <path d="M17.3334 8.99935C17.3334 4.39935 13.6001 0.666016 9.00008 0.666016C4.40008 0.666016 0.666748 4.39935 0.666748 8.99935C0.666748 13.0327 3.53341 16.391 7.33341 17.166V11.4993H5.66675V8.99935H7.33341V6.91602C7.33341 5.30768 8.64175 3.99935 10.2501 3.99935H12.3334V6.49935H10.6667C10.2084 6.49935 9.83341 6.87435 9.83341 7.33268V8.99935H12.3334V11.4993H9.83341V17.291C14.0417 16.8743 17.3334 13.3243 17.3334 8.99935Z" fill="white" />
     </svg>
 )
+
+export const CloseIcon = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-x-lg" viewBox="0 0 16 16">
+        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+    </svg>
+)
+
+export const MenuIcon = () => (
+    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M35.5566 14L4.44394 14" stroke="white" strokeWidth="2" strokeLinecap="round" />
+        <path d="M35.5566 26L4.44394 26" stroke="white" strokeWidth="2" strokeLinecap="round" />
+    </svg>
+)

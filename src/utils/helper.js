@@ -1,3 +1,26 @@
+export const HEADER_LIST = [
+    {
+        title: "About us",
+        link: "#about",
+    },
+    {
+        title: "Solutions",
+        link: "#solution",
+    },
+    {
+        title: "Benefits",
+        link: "#benefits",
+    },
+    {
+        title: "Testimonials",
+        link: "#testimonials",
+    },
+    {
+        title: "FAQs",
+        link: "#faq",
+    },
+]
+
 export const FAQ_LIST = [
     {
         title: 'What is AI Automation?',
