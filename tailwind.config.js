@@ -8,7 +8,8 @@ module.exports = {
       colors: {
         "navy-blue": "#01000B",
         "dark-blue": "#32C7F1",
-
+        "light-blue": "#3b28f6",
+        "dark-sky": "#0c0838"
       },
       backgroundImage: {
         "hero-bg": "url('./assets/images/hero-bg.webp')",

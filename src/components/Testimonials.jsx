@@ -26,7 +26,7 @@ const Testimonials = () => {
         }
       },
       {
-        breakpoint: 768,
+        breakpoint: 660,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,

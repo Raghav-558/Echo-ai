@@ -7,7 +7,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear()
 
   return (
-    <div className='bg-navy-blue pt-[356px] max-xl:pt-[300px] max-lg:pt-[60px]'>
+    <div className='bg-navy-blue pt-[356px] max-xl:pt-[300px] max-lg:pt-20'>
       <div className='max-w-[1172px] px-4 mx-auto'>
         <div className='flex justify-between max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:gap-10'>
           <a href='#footerlogo'>
@@ -40,7 +40,7 @@ const Footer = () => {
               info@echoai.ai
             </a>
             <p className='text-white leading-5 max-sm:leading-4 max-sm:text-sm pt-8 max-sm:text-center'>
-              Send Us An E-mail
+              Follow Us On
             </p>
             <div className='flex items-center gap-3 pt-[18px]'>
               <a

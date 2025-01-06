@@ -8,6 +8,7 @@ const Faq = () => {
   const toggle = i => {
     setActive(active === i ? null : i)
   }
+
   return (
     <div className='bg-navy-blue py-[210px] max-lg:pb-[60px] max-lg:pt-[100px]'>
       <div className='max-w-[1174px] mx-auto px-4'>
@@ -16,9 +17,9 @@ const Faq = () => {
           {FAQ_LIST.map((obj, i) => (
             <div
               key={i}
-              className={`rounded-xl p-6 max-sm:p-4 border border-solid  ${
+              className={`rounded-xl p-6 max-sm:p-4 border border-solid ${
                 active === i
-                  ? 'border-dark-blue'
+                  ? 'active-border'
                   : 'border-white border-opacity-10'
               }`}
             >
@@ -31,7 +32,7 @@ const Faq = () => {
                 {obj.title}
                 <span
                   className={`transition-all duration-300 ${
-                    active === i ? 'rotate-180 ' : ''
+                    active === i ? 'rotate-180' : ''
                   }`}
                 >
                   <ArrowIcon />
@@ -39,7 +40,7 @@ const Faq = () => {
               </button>
               <p
                 className={`text-white max-w-[950px] max-md:text-sm transition-all duration-300 overflow-hidden max-sm:overflow-y-auto ${
-                  active === i ? 'max-h-32 ' : 'max-h-0'
+                  active === i ? 'max-h-32' : 'max-h-0'
                 }`}
               >
                 {obj.description}

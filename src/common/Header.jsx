@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <>
-      <div className='flex items-center justify-between w-full pt-[14px] '>
+      <div className='flex items-center justify-between w-full pt-[14px]'>
         <a href='#logo'>
           <img
             src={logo}
@@ -46,7 +46,9 @@ const Header = () => {
         </ul>
         <CustomButton
           buttonText={'Get Started'}
-          myClass={'max-lg:hidden py-[13.5px] px-[32.48px] button-bg hover:bg-white'}
+          myClass={
+            'max-lg:hidden py-[13.5px] px-[32.48px] button-bg hover:bg-white'
+          }
         />
         <div
           className='lg:hidden z-30 cursor-pointer'
@@ -74,9 +76,9 @@ const Header = () => {
             </li>
           ))}
           <CustomButton
-            onClick={() => setOpen(false)}
+            customOnClick={() => setOpen(false)}
             buttonText={'Get Started'}
-            myClass={' py-[13.5px] px-[32.48px]'}
+            myClass={' py-[13.5px] px-[32.48px] bg-dark-blue'}
           />
         </ul>
       </div>

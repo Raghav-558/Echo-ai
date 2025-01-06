@@ -9,7 +9,7 @@ const ResultsAi = () => {
         <div className='flex justify-center items-center max-lg:flex-wrap gap-y-10 max-md:gap-[30px]'>
           {RESULTS_LIST.map((obj, i) => (
             <div key={i}
-              className={`w-1/3 max-lg:w-1/2 max-md:w-full flex justify-center max-md:pr-0 pr-[17px] border-r-liner border-solid ${
+              className={`w-1/3 max-lg:w-1/2 max-md:w-full flex justify-center max-md:pr-0 pr-[17px] side-border ${
                 i === 1
                   ? 'max-lg:border-r-0'
                   : i === 2
