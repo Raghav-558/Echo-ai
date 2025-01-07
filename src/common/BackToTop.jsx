@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { BackToTopIcon, DoubleArrow } from '../utils/icons'
+import { BackToTopIcon} from '../utils/icons'
 
 const BackToTop = () => {
   const [isVisible, setIsVisible] = useState(false)

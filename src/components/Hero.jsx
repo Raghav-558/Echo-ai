@@ -19,7 +19,7 @@ const Hero = () => {
             </p>
             <CustomButton
               buttonText={'Book A Call Now!'}
-              myClass={'py-[19.5px] px-[38.75px] hover:scale-105 transition-all duration-300'}
+              myClass={'py-[19.5px] px-[38.75px] max-sm:py-4 max-sm:px-6 hover:scale-105 transition-all duration-300'}
             />
           </div>
           <img
