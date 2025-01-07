@@ -9,6 +9,10 @@ const Testimonials = () => {
   const settings = {
     dots: false,
     arrows: false,
+    speed: 500,
+    infinite: true,
+    autoplaySpeed: 3000,
+    autoplay: true,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -18,10 +22,6 @@ const Testimonials = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          speed: 500,
-          infinite: true,
-          autoplaySpeed: 3000,
-          autoplay: true,
           dots: true
         }
       },

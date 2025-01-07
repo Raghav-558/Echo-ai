@@ -47,7 +47,7 @@ const Header = () => {
         <CustomButton
           buttonText={'Get Started'}
           myClass={
-            'max-lg:hidden py-[13.5px] px-[32.48px] button-bg hover:bg-white'
+            'max-lg:hidden py-[13.5px] px-[32.48px] button-bg hover:scale-105 transition-all duration-300'
           }
         />
         <div

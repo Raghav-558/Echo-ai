@@ -18,8 +18,8 @@ const Hero = () => {
               Next Gen AI Automation to Scale Your Business.
             </p>
             <CustomButton
-              buttonText='Book A Call Now!'
-              myClass='py-[19.5px] px-[38.75px]'
+              buttonText={'Book A Call Now!'}
+              myClass={'py-[19.5px] px-[38.75px] hover:scale-105 transition-all duration-300'}
             />
           </div>
           <img
@@ -31,7 +31,7 @@ const Hero = () => {
         <img
           src={Circle}
           alt='circle'
-          className=' absolute left-0 -bottom-40 max-xl:hidden  max-w-[322px]'
+          className=' absolute left-0 -bottom-40 max-xl:hidden max-w-[322px]'
         />
       </div>
     </div>

@@ -26,6 +26,7 @@
 .slick-dots li button:before {
   color: white !important;
 }
+
 .slick-list .slick-track {
   display: flex;
   gap: 24px;
