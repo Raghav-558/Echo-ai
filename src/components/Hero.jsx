@@ -6,7 +6,7 @@ import Circle from '../assets/images/circle.webp'
 
 const Hero = () => {
   return (
-    <div className='bg-hero-bg bg-no-repeat bg-cover bg-left bg-navy-blue relative pb-[118px] max-md:pb-16 max-sm:pb-10'>
+    <div className='bg-hero-bg bg-no-repeat bg-cover bg-left bg-navy-blue relative max-lg:pb-[119px] max-md:pb-[60px] max-sm:pb-10 lg:min-h-[840px]'>
       <div className='max-w-[1172px] mx-auto px-4'>
         <Header />
         <div className='flex max-md:flex-wrap items-center justify-between pt-[120px] max-lg:pt-20 max-md:pt-[60px]'>
