@@ -4,6 +4,7 @@ import Faq from './components/Faq';
 import Hero from './components/Hero';
 import Testimonials from './components/Testimonials';
 import ResultsAi from './components/ResultsAi';
+import BackToTop from './common/BackToTop';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <ResultsAi />
       <Testimonials />
       <Faq />
-      <Footer/>
+      <Footer />
+      <BackToTop />
     </>
   );
 }
