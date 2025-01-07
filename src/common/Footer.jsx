@@ -1,7 +1,6 @@
 import React from 'react'
 import FooterLogo from '../assets/images/footer-logo.webp'
-import { FacebookIcon, InstagramIcon, LinkedinIcon } from '../utils/icons'
-import { FOOTER_LIST } from '../utils/helper'
+import { FOOTER_LIST, SOCIAL_LINKS } from '../utils/helper'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -43,27 +42,16 @@ const Footer = () => {
               Follow Us On
             </p>
             <div className='flex items-center gap-3 pt-[18px]'>
-              <a
-                href='https://www.linkedin.com/feed/'
-                target='_blank'
-                className='hover:scale-110 transition-all duration-300'
-              >
-                <LinkedinIcon />
-              </a>
-              <a
-                href='https://www.instagram.com/'
-                target='_blank'
-                className='hover:scale-110 transition-all duration-300'
-              >
-                <InstagramIcon />
-              </a>
-              <a
-                href='www.facebook.com'
-                target='_blank'
-                className='hover:scale-110 transition-all duration-300'
-              >
-                <FacebookIcon />
-              </a>
+              {SOCIAL_LINKS.map((obj, i) => (
+                <a
+                  key={i}
+                  href={obj.link}
+                  target='_blank'
+                  className='size-10 rounded-full button-bg flex justify-center items-center hover:scale-110 transition-all duration-300'
+                >
+                  {obj.social}
+                </a>
+              ))}
             </div>
           </div>
         </div>

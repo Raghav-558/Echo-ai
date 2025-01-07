@@ -1,6 +1,7 @@
 import ProfileOne from '../assets/images/miguel.webp'
 import ProfileTwo from '../assets/images/rachel.webp'
 import ProfileThree from '../assets/images/mike.webp'
+import { FacebookIcon, InstagramIcon, LinkedinIcon } from './icons'
 
 export const HEADER_LIST = [
     {
@@ -109,3 +110,18 @@ export const RESULTS_LIST = [
         description: "More likely to outperform competitors with AI"
     },
 ]
+
+export const SOCIAL_LINKS = [
+    {
+        social: <LinkedinIcon />,
+        link: 'https://www.linkedin.com/feed/'
+    },
+    {
+        social: <InstagramIcon />,
+        link: 'https://www.instagram.com/'
+    },
+    {
+        social: <FacebookIcon />,
+        link: 'https://www.facebook.com/login/'
+    },
+];
