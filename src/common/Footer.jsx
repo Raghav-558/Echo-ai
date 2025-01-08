@@ -6,14 +6,14 @@ const Footer = () => {
   const currentYear = new Date().getFullYear()
 
   return (
-    <div className='bg-navy-blue pt-[356px] max-xl:pt-[300px] max-lg:pt-20 max-sm:pt-[60px]'>
+    <div className='bg-navy-blue pt-[356px] max-xl:pt-[300px] max-lg:pt-20 max-sm:pt-[60px]' id='about'>
       <div className='max-w-[1172px] px-4 mx-auto'>
         <div className='flex justify-between max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:gap-10'>
           <a href='#footerlogo'>
             <img
               src={FooterLogo}
               alt='footer-Logo'
-              className='max-w-[150px] pointer-events-none'
+              className='max-w-[150px] max-sm:max-w-[100px] pointer-events-none'
             />
           </a>
           <div className='flex flex-col gap-[14px]'>

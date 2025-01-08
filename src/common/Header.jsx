@@ -37,8 +37,7 @@ const Header = () => {
             <li key={i}>
               <a
                 href={obj.link}
-                className='leading-5 text-white hover:text-dark-blue transition-all duration-300'
-              >
+                className='leading-5 text-white hover:text-dark-blue transition-all duration-300'>
                 {obj.title}
               </a>
             </li>

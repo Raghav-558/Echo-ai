@@ -30,11 +30,6 @@ const Testimonials = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          infinite: true,
-          speed: 500,
-          infinite: true,
-          autoplaySpeed: 3000,
-          autoplay: true,
           dots: true
         }
       }
@@ -42,13 +37,13 @@ const Testimonials = () => {
   }
 
   return (
-    <div className='bg-navy-blue pt-[175px] max-lg:pt-[60px]'>
-      <div className='max-w-[1172px] mx-auto px-4'>
+    <div className='bg-navy-blue pt-[175px] max-lg:pt-20 max-md:pt-[60px] mb-[-1px]' id='testimonials'>
+      <div className='max-w-[1172px] mx-auto px-4 mb-[-1px]'>
         <SubHeading text={'Testimonials'} myClass={'pb-10'} />
         <Slider {...settings}>
           {TESTIMONIALS_LIST.map((obj, i) => (
             <div key={i}>
-              <div className='p-[24px_24px_0px_24px] rounded-3xl max-w-[364px] mx-auto slider-bg'>
+              <div className='p-[24px_24px_0px_24px] rounded-3xl max-w-[364px] mx-auto slider-bg '>
                 <h3 className='text-white pb-[8.39px] text-2xl leading-[28.8px] max-md:leading-[24px] max-lg:text-xl max-md:text-lg'>
                   {obj.title}
                 </h3>
@@ -66,7 +61,7 @@ const Testimonials = () => {
                     alt='profileImage'
                   />
                   <div className='flex flex-col'>
-                    <h3 className='text-white text-2xl leading-[28.8px] max-md:leading-[24px] max-lg:text-xl max-md:text-lg'>
+                    <h3 className='text-white text-xl leading-6 max-md:leading-[24px] max-lg:text-xl max-md:text-lg'>
                       {obj.name}
                     </h3>
                     <p className='text-white max-md:text-sm'>{obj.about}</p>

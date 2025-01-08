@@ -18,10 +18,7 @@ module.exports = {
         xlg: '1050px',
         lg: '1025px',
         md: '770px'
-      },
-      fontFamily: {
-        outfit: ["Outfit", "sans-serif"],
-      },
+      }
     },
   },
   plugins: [],

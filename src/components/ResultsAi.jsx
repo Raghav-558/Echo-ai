@@ -4,7 +4,7 @@ import { RESULTS_LIST } from '../utils/helper'
 
 const ResultsAi = () => {
   return (
-    <div className='bg-navy-blue -mb-0.5 pt-[58px]'>
+    <div className='bg-navy-blue pt-[58px] my-[-1px] max-sm:pt-0' id='solution'>
       <div className='max-w-[1138px] mx-auto'>
         <div className='flex justify-center items-center max-lg:flex-wrap gap-y-10 max-md:gap-[30px]'>
           {RESULTS_LIST.map((obj, i) => (

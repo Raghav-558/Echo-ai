@@ -7,6 +7,11 @@
   font-family: 'Outfit', serif;
 }
 
+html,
+body {
+  scroll-behavior: smooth !important;
+}
+
 .button-bg {
   background: linear-gradient(103.52deg, #3a3ef5 18.99%, #32c8f1 82.34%);
 }

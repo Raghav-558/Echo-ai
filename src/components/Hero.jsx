@@ -6,7 +6,7 @@ import Circle from '../assets/images/circle.webp'
 
 const Hero = () => {
   return (
-    <div className='bg-hero-bg bg-no-repeat bg-cover bg-left bg-navy-blue relative max-lg:pb-[119px] max-md:pb-[60px] lg:min-h-[840px]'>
+    <div className='bg-hero-bg bg-no-repeat bg-cover bg-left bg-navy-blue relative max-lg:pb-[119px] max-md:pb-[60px] lg:min-h-[840px]' id=''>
       <div className='max-w-[1172px] mx-auto px-4'>
         <Header />
         <div className='flex max-md:flex-wrap items-center justify-between pt-[120px] max-lg:pt-20 max-md:pt-[60px]'>
@@ -14,7 +14,7 @@ const Hero = () => {
             <h1 className='max-w-[705px] text-white font-bold text-7xl leading-[86px] max-lg:text-6xl max-md:text-4xl'>
               Innovate, Automate, Accelerate
             </h1>
-            <p className='text-white font-normal text-xl leading-[30px] text-center py-6 max-sm:py-3'>
+            <p className='text-white font-normal text-xl leading-[30px] text-center py-6 max-sm:py-4 max-sm:text-base'>
               Next Gen AI Automation to Scale Your Business.
             </p>
             <CustomButton
@@ -31,7 +31,7 @@ const Hero = () => {
         <img
           src={Circle}
           alt='circle'
-          className=' absolute left-0 -bottom-40 max-xl:hidden max-w-[322px]'
+          className=' absolute left-0 -bottom-[250px] max-xl:hidden h-[800px] pointer-events-none'
         />
       </div>
     </div>
